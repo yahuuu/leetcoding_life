@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85ad5b39-e68f-4fd5-804c-b674b17f21fc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eQcOibENH3GdUUvXC1WE97bTRe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85ad5b39-e68f-4fd5-804c-b674b17f21fc" name="Default Changelist" comment="" />
+      <created>1594257226782</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594257226782</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1989" y="727" width="424" height="484" key="FileChooserDialogImpl" timestamp="1594265981650">
+      <screen x="1920" y="0" width="1080" height="1920" />
+    </state>
+    <state x="1989" y="727" width="424" height="484" key="FileChooserDialogImpl/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594265981650" />
+    <state x="2249" y="890" key="Github.CreateGistDialog" timestamp="1594265823362">
+      <screen x="1920" y="0" width="1080" height="1920" />
+    </state>
+    <state x="2249" y="890" key="Github.CreateGistDialog/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594265823362" />
+    <state x="1949" y="607" key="SettingsEditor" timestamp="1594265997105">
+      <screen x="1920" y="0" width="1080" height="1920" />
+    </state>
+    <state x="1949" y="607" key="SettingsEditor/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594265997105" />
+    <state x="2116" y="800" key="com.intellij.ide.util.TipDialog" timestamp="1594266203159">
+      <screen x="1920" y="0" width="1080" height="1920" />
+    </state>
+    <state x="2116" y="800" key="com.intellij.ide.util.TipDialog/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594266203159" />
+  </component>
+</project>
