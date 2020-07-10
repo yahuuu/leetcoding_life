@@ -26,11 +26,14 @@
 #                     res[tree[-1]].append(i)
 #         return res
 
+
+
+
 """
 用例如:
 # big = "abcd"
 # smalls = ["a","abc"]
-字典树结构:
+smalls构造字典树, 结构:
 trie.root = {"a": Node_0xx}
                   Node.word_idx = 0   # 第1个单词
                   Node.word_end = True
@@ -42,6 +45,7 @@ trie.root = {"a": Node_0xx}
                             {"c": Node_0xx}
                                   Node.word_idx = 1  # 第2个单词
                                   Node.word_end = True
+搜索普通遍历,时间复杂度O(n**2), n = len(big)
 """
 class Node(object):
     # 节点

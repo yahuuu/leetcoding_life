@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="85ad5b39-e68f-4fd5-804c-b674b17f21fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jindian/17_17multiSearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/jindian/17_17multiSearch.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +231,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/jindian/17_17multiSearch.py</url>
-          <line>69</line>
+          <line>71</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
