@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="85ad5b39-e68f-4fd5-804c-b674b17f21fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/num_700_800/754_ReachaNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/num_700_800/754_ReachaNumber.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +33,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/num_700_800/704_binarySearch.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.147_InsertionSortList">
-    <configuration name="147_InsertionSortList" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.38_CountandSay">
+    <configuration name="32_LongestValidParentheses" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -45,7 +46,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num_100_200/147_InsertionSortList.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num_0_100/32_LongestValidParentheses.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -54,7 +55,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17_17multiSearch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="38_CountandSay" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,7 +67,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jindian/17_17multiSearch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num_0_100/38_CountandSay.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="332._ReconstructItinerary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="56_MergeIntervals" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,7 +88,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num_300_400/332._ReconstructItinerary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num_0_100/56_MergeIntervals.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,27 +118,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="997_FindtheTownJudge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/num_700_800" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num_900_1000/997_FindtheTownJudge.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,13 +139,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="bayes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/num_700_800" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/bayes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.147_InsertionSortList" />
-        <item itemvalue="Python.332._ReconstructItinerary" />
-        <item itemvalue="Python.997_FindtheTownJudge" />
-        <item itemvalue="Python.17_17multiSearch" />
+        <item itemvalue="Python.38_CountandSay" />
+        <item itemvalue="Python.bayes" />
+        <item itemvalue="Python.32_LongestValidParentheses" />
         <item itemvalue="Python.754_ReachaNumber" />
+        <item itemvalue="Python.56_MergeIntervals" />
       </list>
     </recent_temporary>
   </component>
@@ -215,46 +216,50 @@
       <screen x="1920" y="0" width="1080" height="1920" />
     </state>
     <state x="2249" y="890" key="Github.CreateGistDialog/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594265823362" />
-    <state width="1057" height="556" key="GridCell.Tab.0.bottom" timestamp="1594550695864">
+    <state width="1057" height="556" key="GridCell.Tab.0.bottom" timestamp="1594814778951">
       <screen x="1920" y="0" width="1080" height="1920" />
     </state>
-    <state width="1057" height="556" key="GridCell.Tab.0.bottom/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594550695864" />
-    <state width="1057" height="556" key="GridCell.Tab.0.center" timestamp="1594550695863">
+    <state width="1057" height="556" key="GridCell.Tab.0.bottom/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594814778951" />
+    <state width="1057" height="556" key="GridCell.Tab.0.center" timestamp="1594814778951">
       <screen x="1920" y="0" width="1080" height="1920" />
     </state>
-    <state width="1057" height="556" key="GridCell.Tab.0.center/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594550695863" />
-    <state width="1057" height="556" key="GridCell.Tab.0.left" timestamp="1594550695863">
+    <state width="1057" height="556" key="GridCell.Tab.0.center/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594814778951" />
+    <state width="1057" height="556" key="GridCell.Tab.0.left" timestamp="1594814778951">
       <screen x="1920" y="0" width="1080" height="1920" />
     </state>
-    <state width="1057" height="556" key="GridCell.Tab.0.left/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594550695863" />
-    <state width="1057" height="556" key="GridCell.Tab.0.right" timestamp="1594550695864">
+    <state width="1057" height="556" key="GridCell.Tab.0.left/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594814778951" />
+    <state width="1057" height="556" key="GridCell.Tab.0.right" timestamp="1594814778951">
       <screen x="1920" y="0" width="1080" height="1920" />
     </state>
-    <state width="1057" height="556" key="GridCell.Tab.0.right/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594550695864" />
-    <state width="1057" height="680" key="GridCell.Tab.1.bottom" timestamp="1594389628770">
+    <state width="1057" height="556" key="GridCell.Tab.0.right/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594814778951" />
+    <state width="1057" height="443" key="GridCell.Tab.1.bottom" timestamp="1594814762688">
       <screen x="1920" y="0" width="1080" height="1920" />
     </state>
-    <state width="1057" height="680" key="GridCell.Tab.1.bottom/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594389628770" />
-    <state width="1057" height="680" key="GridCell.Tab.1.center" timestamp="1594389628770">
+    <state width="1057" height="443" key="GridCell.Tab.1.bottom/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594814762688" />
+    <state width="1057" height="443" key="GridCell.Tab.1.center" timestamp="1594814762688">
       <screen x="1920" y="0" width="1080" height="1920" />
     </state>
-    <state width="1057" height="680" key="GridCell.Tab.1.center/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594389628770" />
-    <state width="1057" height="680" key="GridCell.Tab.1.left" timestamp="1594389628770">
+    <state width="1057" height="443" key="GridCell.Tab.1.center/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594814762688" />
+    <state width="1057" height="443" key="GridCell.Tab.1.left" timestamp="1594814762688">
       <screen x="1920" y="0" width="1080" height="1920" />
     </state>
-    <state width="1057" height="680" key="GridCell.Tab.1.left/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594389628770" />
-    <state width="1057" height="680" key="GridCell.Tab.1.right" timestamp="1594389628770">
+    <state width="1057" height="443" key="GridCell.Tab.1.left/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594814762688" />
+    <state width="1057" height="443" key="GridCell.Tab.1.right" timestamp="1594814762688">
       <screen x="1920" y="0" width="1080" height="1920" />
     </state>
-    <state width="1057" height="680" key="GridCell.Tab.1.right/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594389628770" />
+    <state width="1057" height="443" key="GridCell.Tab.1.right/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594814762688" />
     <state x="1944" y="763" key="SettingsEditor" timestamp="1594273777187">
       <screen x="1920" y="0" width="1080" height="1920" />
     </state>
     <state x="1944" y="763" key="SettingsEditor/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594273777187" />
-    <state x="2116" y="800" key="com.intellij.ide.util.TipDialog" timestamp="1594266203159">
+    <state width="540" height="947" key="XDebugger.FullValuePopup" timestamp="1594732817946">
       <screen x="1920" y="0" width="1080" height="1920" />
     </state>
-    <state x="2116" y="800" key="com.intellij.ide.util.TipDialog/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594266203159" />
+    <state width="540" height="947" key="XDebugger.FullValuePopup/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594732817946" />
+    <state x="2116" y="800" key="com.intellij.ide.util.TipDialog" timestamp="1594725492964">
+      <screen x="1920" y="0" width="1080" height="1920" />
+    </state>
+    <state x="2116" y="800" key="com.intellij.ide.util.TipDialog/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594725492964" />
     <state x="2204" y="616" width="501" height="713" key="refactoring.ChangeSignatureDialog" timestamp="1594382299634">
       <screen x="1920" y="0" width="1080" height="1920" />
     </state>
@@ -271,6 +276,31 @@
           <url>file://$PROJECT_DIR$/jindian/17_17multiSearch.py</url>
           <line>74</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num_700_800/754_ReachaNumber.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num_0_100/32_LongestValidParentheses.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/others/bayes.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/others/bayes.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num_0_100/38_CountandSay.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
