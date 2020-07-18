@@ -1,13 +1,16 @@
 # -*- coding:utf-8 -*-
-# Created data:
+# Created data: 20200716
 
-# 1
+
+# 1 , 90%
+# 大意是在文章中反转部分字符
+
 import sys
 
 line = sys.stdin.readline().strip()
 start = int(sys.stdin.readline().strip())
 stop = int(sys.stdin.readline().strip())
-line = "i am one boy."
+# line = "i am one boy."
 # line = "hello  world".strip()
 # start = 0
 # stop = 3
@@ -36,6 +39,7 @@ print(solution(line, start, stop))
 """
 
 # 2
+# 查找子串在父串中的第一个索引
 import sys
 t = sys.stdin.readline().strip()
 p = sys.stdin.readline().strip()
@@ -57,6 +61,7 @@ print(solution(t, p))
 """
 
 # 3
+# 大意是先找交集, 然后交集合并为并集
 import sys
 ls = []
 while 1:
