@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85ad5b39-e68f-4fd5-804c-b674b17f21fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/num_0_100/34_FindFirstandLastPositionofElementinSortedArray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/num_0_100/48_RotateImage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/Huawei_OD.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/Huawei_OD.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,13 +31,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/num_700_800/704_binarySearch.py" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.splitter.proportion" value="0.27984345" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common" />
       <recent name="$PROJECT_DIR$/others" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.48_RotateImage">
+  <component name="RunManager" selected="Python.39._CombinationSum">
     <configuration name="34_FindFirstandLastPositionofElementinSortedArray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -54,6 +53,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num_0_100/34_FindFirstandLastPositionofElementinSortedArray.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="39._CombinationSum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/num_700_800" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num_0_100/39._CombinationSum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,48 +103,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="96_UniqueBinarySearchTrees" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/num_700_800" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num_0_100/96_UniqueBinarySearchTrees.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Huawei_OD" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/num_700_800" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/Huawei_OD.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="niuke_input_output" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="timeit_and_numba" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,7 +136,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/niuke_input_output.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/timeit_and_numba.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tmp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/num_700_800" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tmp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.39._CombinationSum" />
+        <item itemvalue="Python.tmp" />
+        <item itemvalue="Python.timeit_and_numba" />
         <item itemvalue="Python.48_RotateImage" />
         <item itemvalue="Python.34_FindFirstandLastPositionofElementinSortedArray" />
-        <item itemvalue="Python.niuke_input_output" />
-        <item itemvalue="Python.Huawei_OD" />
-        <item itemvalue="Python.96_UniqueBinarySearchTrees" />
       </list>
     </recent_temporary>
   </component>
@@ -218,77 +217,78 @@
       <screen x="1920" y="0" width="1080" height="1920" />
     </state>
     <state x="2020" y="125" width="880" height="1695" key="DiffContextDialog/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594275822711" />
-    <state x="1989" y="727" width="424" height="484" key="FileChooserDialogImpl" timestamp="1594274635645">
+    <state x="1989" y="727" width="424" height="484" key="FileChooserDialogImpl" timestamp="1595164247191">
       <screen x="1920" y="0" width="1080" height="1920" />
     </state>
+    <state x="1989" y="727" key="FileChooserDialogImpl/1920.0.1080.1920/0.314.1920.1080@1920.0.1080.1920" timestamp="1595164247191" />
     <state x="1989" y="727" width="424" height="484" key="FileChooserDialogImpl/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594274635645" />
     <state x="2249" y="890" key="Github.CreateGistDialog" timestamp="1594265823362">
       <screen x="1920" y="0" width="1080" height="1920" />
     </state>
     <state x="2249" y="890" key="Github.CreateGistDialog/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594265823362" />
-    <state width="1057" height="441" key="GridCell.Tab.0.bottom" timestamp="1595055819251">
+    <state width="1057" height="334" key="GridCell.Tab.0.bottom" timestamp="1595253625075">
       <screen x="1920" y="0" width="1080" height="1920" />
     </state>
-    <state width="1830" height="287" key="GridCell.Tab.0.bottom/1920.0.1080.1920/0.314.1920.1080@0.314.1920.1080" timestamp="1594909727761" />
-    <state width="1057" height="441" key="GridCell.Tab.0.bottom/1920.0.1080.1920/0.314.1920.1080@1920.0.1080.1920" timestamp="1595055819251" />
+    <state width="937" height="108" key="GridCell.Tab.0.bottom/1920.0.1080.1920/0.314.1920.1080@0.314.1920.1080" timestamp="1595131724862" />
+    <state width="1057" height="334" key="GridCell.Tab.0.bottom/1920.0.1080.1920/0.314.1920.1080@1920.0.1080.1920" timestamp="1595253625075" />
     <state width="1057" height="556" key="GridCell.Tab.0.bottom/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594823473806" />
-    <state width="1057" height="441" key="GridCell.Tab.0.center" timestamp="1595055819251">
+    <state width="1057" height="334" key="GridCell.Tab.0.center" timestamp="1595253625075">
       <screen x="1920" y="0" width="1080" height="1920" />
     </state>
-    <state width="1830" height="287" key="GridCell.Tab.0.center/1920.0.1080.1920/0.314.1920.1080@0.314.1920.1080" timestamp="1594909727760" />
-    <state width="1057" height="441" key="GridCell.Tab.0.center/1920.0.1080.1920/0.314.1920.1080@1920.0.1080.1920" timestamp="1595055819251" />
+    <state width="937" height="108" key="GridCell.Tab.0.center/1920.0.1080.1920/0.314.1920.1080@0.314.1920.1080" timestamp="1595131724862" />
+    <state width="1057" height="334" key="GridCell.Tab.0.center/1920.0.1080.1920/0.314.1920.1080@1920.0.1080.1920" timestamp="1595253625075" />
     <state width="1057" height="556" key="GridCell.Tab.0.center/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594823473806" />
-    <state width="1057" height="441" key="GridCell.Tab.0.left" timestamp="1595055819251">
+    <state width="1057" height="334" key="GridCell.Tab.0.left" timestamp="1595253625075">
       <screen x="1920" y="0" width="1080" height="1920" />
     </state>
-    <state width="1830" height="287" key="GridCell.Tab.0.left/1920.0.1080.1920/0.314.1920.1080@0.314.1920.1080" timestamp="1594909727760" />
-    <state width="1057" height="441" key="GridCell.Tab.0.left/1920.0.1080.1920/0.314.1920.1080@1920.0.1080.1920" timestamp="1595055819251" />
+    <state width="937" height="108" key="GridCell.Tab.0.left/1920.0.1080.1920/0.314.1920.1080@0.314.1920.1080" timestamp="1595131724862" />
+    <state width="1057" height="334" key="GridCell.Tab.0.left/1920.0.1080.1920/0.314.1920.1080@1920.0.1080.1920" timestamp="1595253625075" />
     <state width="1057" height="556" key="GridCell.Tab.0.left/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594823473806" />
-    <state width="1057" height="441" key="GridCell.Tab.0.right" timestamp="1595055819251">
+    <state width="1057" height="334" key="GridCell.Tab.0.right" timestamp="1595253625075">
       <screen x="1920" y="0" width="1080" height="1920" />
     </state>
-    <state width="1830" height="287" key="GridCell.Tab.0.right/1920.0.1080.1920/0.314.1920.1080@0.314.1920.1080" timestamp="1594909727760" />
-    <state width="1057" height="441" key="GridCell.Tab.0.right/1920.0.1080.1920/0.314.1920.1080@1920.0.1080.1920" timestamp="1595055819251" />
+    <state width="937" height="108" key="GridCell.Tab.0.right/1920.0.1080.1920/0.314.1920.1080@0.314.1920.1080" timestamp="1595131724862" />
+    <state width="1057" height="334" key="GridCell.Tab.0.right/1920.0.1080.1920/0.314.1920.1080@1920.0.1080.1920" timestamp="1595253625075" />
     <state width="1057" height="556" key="GridCell.Tab.0.right/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594823473806" />
-    <state width="1057" height="441" key="GridCell.Tab.1.bottom" timestamp="1595055819251">
-      <screen x="1920" y="0" width="1080" height="1920" />
+    <state width="1830" height="275" key="GridCell.Tab.1.bottom" timestamp="1595130047672">
+      <screen x="0" y="314" width="1920" height="1080" />
     </state>
-    <state width="1830" height="226" key="GridCell.Tab.1.bottom/1920.0.1080.1920/0.314.1920.1080@0.314.1920.1080" timestamp="1594895406242" />
-    <state width="1057" height="441" key="GridCell.Tab.1.bottom/1920.0.1080.1920/0.314.1920.1080@1920.0.1080.1920" timestamp="1595055819251" />
+    <state width="1830" height="275" key="GridCell.Tab.1.bottom/1920.0.1080.1920/0.314.1920.1080@0.314.1920.1080" timestamp="1595130047672" />
+    <state width="1057" height="441" key="GridCell.Tab.1.bottom/1920.0.1080.1920/0.314.1920.1080@1920.0.1080.1920" timestamp="1595065821998" />
     <state width="1057" height="443" key="GridCell.Tab.1.bottom/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594815171710" />
-    <state width="1057" height="441" key="GridCell.Tab.1.center" timestamp="1595055819251">
-      <screen x="1920" y="0" width="1080" height="1920" />
+    <state width="1830" height="275" key="GridCell.Tab.1.center" timestamp="1595130047672">
+      <screen x="0" y="314" width="1920" height="1080" />
     </state>
-    <state width="1830" height="226" key="GridCell.Tab.1.center/1920.0.1080.1920/0.314.1920.1080@0.314.1920.1080" timestamp="1594895406242" />
-    <state width="1057" height="441" key="GridCell.Tab.1.center/1920.0.1080.1920/0.314.1920.1080@1920.0.1080.1920" timestamp="1595055819251" />
+    <state width="1830" height="275" key="GridCell.Tab.1.center/1920.0.1080.1920/0.314.1920.1080@0.314.1920.1080" timestamp="1595130047672" />
+    <state width="1057" height="441" key="GridCell.Tab.1.center/1920.0.1080.1920/0.314.1920.1080@1920.0.1080.1920" timestamp="1595065821998" />
     <state width="1057" height="443" key="GridCell.Tab.1.center/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594815171710" />
-    <state width="1057" height="441" key="GridCell.Tab.1.left" timestamp="1595055819251">
-      <screen x="1920" y="0" width="1080" height="1920" />
+    <state width="1830" height="275" key="GridCell.Tab.1.left" timestamp="1595130047672">
+      <screen x="0" y="314" width="1920" height="1080" />
     </state>
-    <state width="1830" height="226" key="GridCell.Tab.1.left/1920.0.1080.1920/0.314.1920.1080@0.314.1920.1080" timestamp="1594895406242" />
-    <state width="1057" height="441" key="GridCell.Tab.1.left/1920.0.1080.1920/0.314.1920.1080@1920.0.1080.1920" timestamp="1595055819251" />
+    <state width="1830" height="275" key="GridCell.Tab.1.left/1920.0.1080.1920/0.314.1920.1080@0.314.1920.1080" timestamp="1595130047672" />
+    <state width="1057" height="441" key="GridCell.Tab.1.left/1920.0.1080.1920/0.314.1920.1080@1920.0.1080.1920" timestamp="1595065821998" />
     <state width="1057" height="443" key="GridCell.Tab.1.left/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594815171710" />
-    <state width="1057" height="441" key="GridCell.Tab.1.right" timestamp="1595055819251">
-      <screen x="1920" y="0" width="1080" height="1920" />
+    <state width="1830" height="275" key="GridCell.Tab.1.right" timestamp="1595130047672">
+      <screen x="0" y="314" width="1920" height="1080" />
     </state>
-    <state width="1830" height="226" key="GridCell.Tab.1.right/1920.0.1080.1920/0.314.1920.1080@0.314.1920.1080" timestamp="1594895406242" />
-    <state width="1057" height="441" key="GridCell.Tab.1.right/1920.0.1080.1920/0.314.1920.1080@1920.0.1080.1920" timestamp="1595055819251" />
+    <state width="1830" height="275" key="GridCell.Tab.1.right/1920.0.1080.1920/0.314.1920.1080@0.314.1920.1080" timestamp="1595130047672" />
+    <state width="1057" height="441" key="GridCell.Tab.1.right/1920.0.1080.1920/0.314.1920.1080@1920.0.1080.1920" timestamp="1595065821998" />
     <state width="1057" height="443" key="GridCell.Tab.1.right/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594815171710" />
-    <state x="1958" y="622" key="SettingsEditor" timestamp="1594983783217">
-      <screen x="1920" y="0" width="1080" height="1920" />
+    <state x="694" y="604" key="SettingsEditor" timestamp="1595128649164">
+      <screen x="0" y="314" width="1920" height="1080" />
     </state>
-    <state x="67" y="664" key="SettingsEditor/1920.0.1080.1920/0.314.1920.1080@0.314.1920.1080" timestamp="1594896002939" />
-    <state x="1958" y="622" key="SettingsEditor/1920.0.1080.1920/0.314.1920.1080@1920.0.1080.1920" timestamp="1594983783217" />
+    <state x="694" y="604" key="SettingsEditor/1920.0.1080.1920/0.314.1920.1080@0.314.1920.1080" timestamp="1595128649164" />
+    <state x="1958" y="622" key="SettingsEditor/1920.0.1080.1920/0.314.1920.1080@1920.0.1080.1920" timestamp="1595127453391" />
     <state x="1944" y="763" key="SettingsEditor/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594273777187" />
     <state width="540" height="947" key="XDebugger.FullValuePopup" timestamp="1594732817946">
       <screen x="1920" y="0" width="1080" height="1920" />
     </state>
     <state width="540" height="947" key="XDebugger.FullValuePopup/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594732817946" />
-    <state x="348" y="764" key="com.intellij.ide.util.TipDialog" timestamp="1594880600003">
-      <screen x="0" y="314" width="1920" height="1080" />
+    <state x="2116" y="800" key="com.intellij.ide.util.TipDialog" timestamp="1595165269448">
+      <screen x="1920" y="0" width="1080" height="1920" />
     </state>
-    <state x="348" y="764" key="com.intellij.ide.util.TipDialog/1920.0.1080.1920/0.314.1920.1080@0.314.1920.1080" timestamp="1594880600003" />
-    <state x="2116" y="800" key="com.intellij.ide.util.TipDialog/1920.0.1080.1920/0.314.1920.1080@1920.0.1080.1920" timestamp="1594869970755" />
+    <state x="348" y="764" key="com.intellij.ide.util.TipDialog/1920.0.1080.1920/0.314.1920.1080@0.314.1920.1080" timestamp="1595131126972" />
+    <state x="2116" y="800" key="com.intellij.ide.util.TipDialog/1920.0.1080.1920/0.314.1920.1080@1920.0.1080.1920" timestamp="1595165269448" />
     <state x="2116" y="800" key="com.intellij.ide.util.TipDialog/1920.0.1080.1920/0.342.1920.1080@1920.0.1080.1920" timestamp="1594818769511" />
     <state x="2204" y="616" width="501" height="713" key="refactoring.ChangeSignatureDialog" timestamp="1594382299634">
       <screen x="1920" y="0" width="1080" height="1920" />
