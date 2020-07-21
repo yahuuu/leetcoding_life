@@ -71,6 +71,14 @@ class Solution2:
             self.__dfs(candidates, index, size, path, res, residue)
             path.pop()
 
+"""
+39.组合总和
+40. 组合总和 II
+46. 全排列
+47. 全排列 II
+78. 子集
+90. 子集 II
+"""
 
 if __name__ == '__main__':
     candidates = [2, 3, 6, 7]
@@ -78,3 +86,4 @@ if __name__ == '__main__':
     solution = Solution()
     result = solution.combinationSum(candidates, target)
     print(result)
+

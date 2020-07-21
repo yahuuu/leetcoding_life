@@ -1,7 +1,8 @@
 # -*- coding:utf-8 -*-
-# Created data:
+# Created data: 20200719
 
 
+#题目： 列表， 偶数放在前面， 奇数放在后面
 ls = [1,2,3,4,5,6,7,8]
 # O(n**2)
 
@@ -12,7 +13,7 @@ def solution(ls):
             ls.append(ls[i])
         # else: pass
 
-
+# 指针分别放奇数，偶数
 def solution3(ls):
     d = 0; s = len(ls)-1
     while True:
@@ -25,5 +26,7 @@ def solution3(ls):
         ls[d], ls[s] = ls[s], ls[d]
         d += 1; s -= 1
 
+
 solution3(ls)
 print(ls)
+

@@ -30,6 +30,7 @@ class binaryTree(object):
             else:
                 queue.append(cur.right)
 
+
     def breath_travel(self):
         rt = [self.root]
         while rt:
@@ -37,8 +38,6 @@ class binaryTree(object):
             print(cur.val)
             if cur.left is not None: rt.append(cur.left)
             if cur.right is not None: rt.append(cur.right)
-
-
 
 
 if __name__ == "__main__":
