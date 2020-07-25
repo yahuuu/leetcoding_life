@@ -8,7 +8,9 @@
 2、选择列表：也就是你当前可以做的选择。
 3、结束条件：也就是到达决策树底层，无法再做选择的条件。
 
-链接：https://leetcode-cn.com/problems/combination-sum/solution/hui-su-suan-fa-tao-mo-ban-ji-ke-by-jeromememory/
+链接：
+https://leetcode-cn.com/problems/combination-sum/solution/hui-su-suan-fa-tao-mo-ban-ji-ke-by-jeromememory/
+
 """
 
 # 回溯是我的弱点，
@@ -80,10 +82,75 @@ class Solution2:
 90. 子集 II
 """
 
+# 日常练习， 思路一致， 递归+回溯+剪枝
+class Solution3(object):
+    def combinationSum(self, candidates, target):
+        rt = []
+        if not candidates: return rt
+        candidates.sort()
+        n = len(candidates)
+        def search(left, ls, residual):
+            ls.append(candidates[left])
+            residual -= candidates[left]
+            if residual < 0:
+                return
+            if residual == 0:
+                rt.append(ls.copy())
+            # >0
+            for i in range(left, n):
+                if candidates[i] > residual:
+                    break
+                search(i, ls, residual)
+                ls.pop(-1)
+
+        for i in range(len(candidates)):
+            search(i, [], target)
+        return rt
+
+
 if __name__ == '__main__':
     candidates = [2, 3, 6, 7]
     target = 7
-    solution = Solution()
+    solution = Solution3()
     result = solution.combinationSum(candidates, target)
     print(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
