@@ -1,0 +1,25 @@
+# coding:utf-8
+# Code date: 20200803
+
+
+def solution(goal, ls):
+    n = len(ls)
+    def helper(left, right):
+        if right < left:
+            return -1
+        mid = (left + right)//2
+        if ls[mid] == goal:
+            return mid
+        elif ls[mid] < goal:
+            res = helper(mid+1, right)
+        else:
+            res = helper(left, mid-1)
+        return res
+    res = helper(0, n-1)
+    return res
+
+if __name__ == "__main__":
+    goal = 12
+    ls = [i for i in range(10)]
+    idx = solution(goal, ls)
+    print(idx)
