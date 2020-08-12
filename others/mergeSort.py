@@ -1,6 +1,7 @@
 # -*- coding:utf-8 -*-
 # Created data: 20200724
 
+# 这个题是组合两个有序链表
 # once AC
 def merge_sort(ls):
     if len(ls) <= 1: return ls

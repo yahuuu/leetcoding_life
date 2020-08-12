@@ -4,8 +4,26 @@
 
 def solution(goal, ls):
     n = len(ls)
+    left = 0; right = n-1
+    res = -1
+    while 1:
+        if left > right:
+            break
+        mid = (left+right) // 2
+        if ls[mid] == goal:
+            res = mid
+            break
+        elif ls[mid] < goal:
+            left = mid+1
+        else:
+            right = mid-1
+    return res
+
+
+def solution1(goal, ls):
+    n = len(ls)
     def helper(left, right):
-        if right < left:
+        if right < left: # 出栈口
             return -1
         mid = (left + right)//2
         if ls[mid] == goal:
@@ -18,8 +36,19 @@ def solution(goal, ls):
     res = helper(0, n-1)
     return res
 
+class facebook():
+    def __init__(self):
+        self.name = "wjl"
+    def __eq__(self, other):
+        """和哈希方法有关，暂时不懂"""
+        pass
+    def __hash__(self):
+        """控制函数的哈希"""
+        pass
+
+
 if __name__ == "__main__":
-    goal = 12
+    goal = -19
     ls = [i for i in range(10)]
     idx = solution(goal, ls)
     print(idx)
