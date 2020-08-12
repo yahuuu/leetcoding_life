@@ -33,8 +33,8 @@ class Solution:
                         return False
         return True
 
-# TODO1： 现在你知道题意了，明天写个自己的解法吧
-# 用嵌套列表能省下存放键指针的内存, 索引查询速度也不差
+# TODO_ok： 现在你知道题意了，明天写个自己的解法吧
+# 用集合嵌套列表能省下存放键指针的内存, 索引查询速度也不差
 
 # time win 98.9%
 class Solution1(object):
