@@ -25,10 +25,11 @@ s.insertionSortList(ls)
 
 
 # answer
-
+# 思路:我这里直接用最优思路来写的
 # 从前到后比较Node的值,
 # 不满足从小到大就从链表中摘除
 # 摘除点从前到后插入原来链表
+# 改进点，建立哨兵节点dummy_head，便于从头开始查找合适的插入位置,无需处理head更新的情况；
 class ListNode(object):
     def __init__(self, x):
         self.val = x
@@ -65,40 +66,3 @@ class Solution(object):
                 point.next = tmp_node
         return new_head.next
 
-
-# 来自网友的解法
-class Solution2:
-    def insertionSortList(self, head: ListNode) -> ListNode:
-        # 找个排头
-        dummy = ListNode(float("-inf"))
-        pre = dummy
-        tail = dummy
-        # 依次拿head节点
-        cur = head
-        while cur:
-            if tail.val < cur.val:
-                tail.next = cur
-                tail = cur
-                cur = cur.next
-            else:
-                # 把下一次节点保持下来
-                tmp = cur.next
-                tail.next = tmp
-                # 找到插入的位置
-                while pre.next and pre.next.val < cur.val:
-                    pre = pre.next
-                # 进行插入操作
-                cur.next = pre.next
-                pre.next = cur
-                pre= dummy
-                cur = tmp
-        return dummy.next
-
-# 作者：powcai
-# 链接：https://leetcode-cn.com/problems/insertion-sort-list/solution/jia-ge-tailsu-du-jiu-kuai-liao-by-powcai/
-# 来源：力扣（LeetCode）
-# 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-
-
-# Input: 4->2->1->3
-# Output: 1->2->3->4
