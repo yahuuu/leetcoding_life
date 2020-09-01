@@ -22,6 +22,8 @@ class Solution1:
 # 递归实现方法1, 这种思路是统计递归树的分裂次数
 # 这里做了时间优化，否则也会时间超限
 # time win 97%
+# 时间和官方解法基本相同
+# 优化很成功
 class Solution2:
     def uniquePaths(self, m: int, n: int) -> int:
         dic = {}
@@ -44,12 +46,12 @@ class Solution2:
 class Solution_org:
     def uniquePaths(self, m: int, n: int) -> int:
         dp = [[1]*n] + [[1]+[0] * (n-1) for _ in range(m-1)]
-        print(dp)
+        # print(dp)
         for i in range(1, m):
             for j in range(1, n):
                 dp[i][j] = dp[i-1][j] + dp[i][j-1]
 
-        print(dp)
+        # print(dp)
         return dp[-1][-1]
 # [[1, 1, 1],
 #  [1, 2, 3],
@@ -58,17 +60,25 @@ class Solution_org:
 class Solution_org1:
     def uniquePaths(self, m: int, n: int) -> int:
         cur = [1] * n
-        print(cur)
+        # print(cur)
         for i in range(1, m):
             for j in range(1, n):
                 cur[j] += cur[j-1]
-        print(cur)
+        # print(cur)
         return cur[-1]
 
 
 if __name__ == "__main__":
     m, n = 4, 3
-    solu = Solution_org1()
-    # solu = Solution1()
+    # solu = Solution_org1()
+    solu = Solution1()
     res = solu.uniquePaths(m, n)
     print(res)
+
+    # from line_profiler import LineProfiler
+    # lp = LineProfiler()
+    # # lp.add_function(Solution1.)  # 被引用函数需要声明才显示细节
+    # lp_wrapper = lp(Solution2().uniquePaths)  # 被显示的函数
+    # # lp_wrapper = lp(Solution_org().uniquePaths)  # 被显示的函数
+    # lp_wrapper(m, n)  # 参数传入
+    # lp.print_stats()  # 打印喽
