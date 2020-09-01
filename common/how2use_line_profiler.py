@@ -44,4 +44,3 @@ lp.add_function(Solution1.groupAnagrams) # 被引用函数需要声明才显示�
 lp_wrapper = lp(Solution().groupAnagrams)  # 被显示的函数
 lp_wrapper(strs)  # 参数传入
 lp.print_stats()  # 打印喽
-
