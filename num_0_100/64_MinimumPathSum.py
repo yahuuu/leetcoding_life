@@ -3,6 +3,7 @@
 
 from typing import List
 
+# 左上角到右下角的最小路径的和
 # 递归树再次时间超出限制，需要剪枝,剪枝后多通过5个用例，看来递归树搞不定了。
 # 得用动态规划！！
 # 要么向右移动要么向左移动
@@ -65,7 +66,7 @@ class Solution2:
 # TODO：用动态规划写下吧
 # 路径搜索从左上角到右下角来计算
 # https://leetcode-cn.com/problems/minimum-path-sum/solution/zui-xiao-lu-jing-he-by-leetcode-solution/
-class Solution_offical:
+class Solution_official1:
     def minPathSum(self, grid: List[List[int]]) -> int:
         if not grid or not grid[0]:
             return 0
@@ -87,7 +88,7 @@ class Solution_offical:
 
 # 这里用的空间压缩方法，我还没有掌握，不会
 # 很厉害
-class Solution_offical1:
+class Solution_official2:
     def minPathSum(self, grid):
         dp = [float('inf')] * (len(grid[0])+1)
         dp[1] = 0
@@ -97,13 +98,30 @@ class Solution_offical1:
                 dp[idx + 1] = min(dp[idx], dp[idx + 1]) + num
         return dp[-1]
 
+# my
+# 和official1不同点就是我的方法直接操作原矩阵，
+# 空间O(1)
+class Solution_mydp:
+    def minPathSum(self, grid):
+        row = len(grid)
+        col = len(grid[0])
+        for c in range(1, col):   # 横向路径叠加
+            grid[0][c] += grid[0][c-1]
+        for r in range(1, row):   # 纵向路径叠加
+            grid[r][0] += grid[r-1][0]
+        for i in range(1, row):   # 中间元素计算
+            for j in range(1, col):
+                grid[i][j] += min(grid[i-1][j], grid[i][j-1])
+        return grid[-1][-1]
+# 额外收获是-1 索引比 row-1 快很多
+
 
 if __name__ == "__main__":
     grid = [
-      [1,3,8],
       [1,3,0],
-      [1,0,0]
+      [1,3,0],
+      [1,9,0]
     ]
-    solu = Solution2()
+    solu = Solution_mydp()
     res = solu.minPathSum(grid)
     print(res)
