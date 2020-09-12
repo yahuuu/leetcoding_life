@@ -26,7 +26,7 @@ def build_tree(ls):
 # 也可以不用字典,用两个list,一个一直记录层次,入栈的数值和栈顶数值不同时,表示新层
 # 看了官方的题解,比我要省下一个O(N)的内存开销,思路二就不写了
 # 而官方思路: 是取queue的长度,因为len(queue)刚好是本层所有的节点
-class Solution:
+class Solution_org:
     def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
         if not root:
             return []
@@ -41,17 +41,42 @@ class Solution:
                 queue.append((node.right, layer+1))
         return list(res.values())[::-1]
 
+# 使用collections.deque双端队列优化list.pop(0)
+from collections import deque
+class Solution_org1:
+    def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
+        if not root:
+            return []
+        res = defaultdict(list)
+        queue = deque()
+        queue.append((root, 0))
+        # queue = [(root, 0)]
+        while queue:
+            node, layer = queue.popleft()
+            res[layer].append(node.val)
+            if node.left:
+                queue.append((node.left, layer+1))
+            if node.right:
+                queue.append((node.right, layer+1))
+        return list(res.values())[::-1]
+
 
 if __name__ == "__main__":
     ls = [1,2,3,4,"null","null",5]
     root = build_tree(ls)
-    solu = Solution()
+    solu = Solution_org()
     res = solu.levelOrderBottom(root)
     print(res)
 
     # from line_profiler import LineProfiler
     # lp = LineProfiler()
-    # lp.add_function(Solution.groupAnagrams)  # 被引用函数需要声明才显示细节
+    # # lp.add_function(Solution.groupAnagrams)  # 被引用函数需要声明才显示细节
+    # lp_wrapper = lp(Solution_org().levelOrderBottom)  # 被显示的函数
+    # lp_wrapper(root)  # 参数传入
+    # lp.print_stats()  # 打印喽
+    #
+    # lp = LineProfiler()
+    # # lp.add_function(Solution.groupAnagrams)  # 被引用函数需要声明才显示细节
     # lp_wrapper = lp(Solution().levelOrderBottom)  # 被显示的函数
     # lp_wrapper(root)  # 参数传入
     # lp.print_stats()  # 打印喽
