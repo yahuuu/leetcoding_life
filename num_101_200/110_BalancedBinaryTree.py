@@ -2,7 +2,7 @@
 # Code date: 20200909
 
 # Definition for a binary tree node.
-# TODO：自己写一遍从上到下，从下到上的树， 这里的代码不是我的
+# TODO：从上到下，从下到上的递归树，区别我还不是很熟悉
 class TreeNode:
     def __init__(self, x):
         self.val = x
