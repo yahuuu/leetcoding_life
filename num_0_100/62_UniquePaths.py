@@ -2,9 +2,10 @@
 # Code date: 20200901
 
 
-# 另一种递归实现方法是在递归的底层计数
+# 递归的实现2.另一种递归实现方法是在递归的底层计数
 # 时间会超限
-class Solution1:
+# 我这个写法的思想是在递归树的底层叶子处来记录路径的和
+class Solution_recurion1:
     def uniquePaths(self, m: int, n: int) -> int:
         self.num = 0
         def helper(m, n):
@@ -24,7 +25,7 @@ class Solution1:
 # time win 97%
 # 时间和官方解法基本相同
 # 优化很成功
-class Solution2:
+class Solution_recursion2:
     def uniquePaths(self, m: int, n: int) -> int:
         dic = {}
         def helper(m, n):
@@ -67,11 +68,25 @@ class Solution_org1:
         # print(cur)
         return cur[-1]
 
+# 这里的写法参考了上面官方思想,但是还是用递归,时间依然超限
+# 这里递归的思想是计算好底层的路径种类,然后迭代,也是动态规划思想
+class Solution_recursion3:
+    def uniquePaths(self, m: int, n: int) -> int:
+        def helper(m: int, n: int):
+            # if (m==0 and n==1) or (m==1 and n==0):
+            if m==0 or n==0:
+                return 1
+            elif m==1 and n==1:
+                return 2
+            else:
+                return helper(m-1, n) + helper(m, n-1)
+        return helper(m-1, n-1)
+
 
 if __name__ == "__main__":
     m, n = 4, 3
     # solu = Solution_org1()
-    solu = Solution1()
+    solu = Solution_recursion3()
     res = solu.uniquePaths(m, n)
     print(res)
 
