@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85ad5b39-e68f-4fd5-804c-b674b17f21fc" name="Default Changelist" comment="20200709. code once">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp.py" beforeDir="false" afterPath="$PROJECT_DIR$/tmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/num_0_100/94_BinaryTreeInorderTraversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/num_0_100/98_ValidateBinarySearchTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/num_101_200/101_SymmetricTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/num_101_200/102_BinaryTreeLevelOrderTraversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/num_101_200/110_BalancedBinaryTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/num_101_200/144_BinaryTreePreorderTraversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/num_101_200/145_BinaryTreePostorderTraversal.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -441,7 +446,7 @@
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tmp.py</url>
+          <url>file://$PROJECT_DIR$/others/shanghaihehe1.py</url>
           <line>61</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
