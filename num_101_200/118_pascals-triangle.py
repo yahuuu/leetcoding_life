@@ -12,7 +12,7 @@ class Solution:
         elif numRows ==2:
             return self.ls1
         elif numRows == 1:
-            return [1]
+            return [[1]]
         elif numRows > 2:
             self.helper(numRows)
             return self.ls1
@@ -20,7 +20,7 @@ class Solution:
 
     def helper(self, numRows):
         for i in range(3, numRows+1):
-            tmp = [[1]]
+            tmp = [1]
             for j in range(i-2):
                 tmp.append(self.ls1[i-2][0+j] + self.ls1[i-2][1+j])
             tmp.append(1)
