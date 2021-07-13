@@ -4,7 +4,7 @@
 # @FileName: 392_is-subsequence.py
 # @Software: PyCharm
 
-class Solution:
+class Solution0:
     def isSubsequence(self, s: str, t: str) -> bool:
         if not s: return True
         slen = len(s)
