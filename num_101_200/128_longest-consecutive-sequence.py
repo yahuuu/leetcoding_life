@@ -7,7 +7,7 @@
 
 from collections import defaultdict
 from typing import List
-
+# 核心思想：是并查集(查找根节点+树合并），计数的方法是在合并树的时候，新的根节点+=老的节点的计数
 # 并查集，可以不用排序就找到最大连续元素的数量，其实是树的构建过程，根用来统计总数，
 # 还需要对树进行剪枝。
 class Solution:
