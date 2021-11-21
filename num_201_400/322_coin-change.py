@@ -5,6 +5,7 @@
 # @Software: PyCharm
 
 from typing import List
+import functools
 
 # 动态规划的难点就是想明白转移方程怎么写
 # F(amount) = min(F(amout - coin[i])) + 1
@@ -43,9 +44,27 @@ class Solution_my(object):
         return -1
 
 
+class Solution2:
+    def coinChange(self, coins: List[int], amount: int) -> int:
+        @functools.lru_cache(amount)
+        def dp(rem) -> int:
+            if rem < 0: return -1
+            if rem == 0: return 0
+            mini = int(1e9)
+            for coin in self.coins:
+                res = dp(rem - coin)
+                if res >= 0 and res < mini:
+                    mini = res + 1
+            return mini if mini < int(1e9) else -1
+
+        self.coins = coins
+        if amount < 1: return 0
+        return dp(amount)
+
+
 if __name__ == '__main__':
     coins = [1, 7, 10]
     amount = 14
-    solu = Solution()
+    solu = Solution2()
     res = solu.coinChange(coins, amount)
     print(res)
