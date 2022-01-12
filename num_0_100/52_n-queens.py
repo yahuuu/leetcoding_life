@@ -12,6 +12,7 @@ class Solution:
         self.n = None
     def helper(self, tmp, idx, valid_num):
         if valid_num == self.n:
+            # 注意多层嵌套list这么copy，否则还是浅层copy
             self.res.append(copy.deepcopy(tmp))
             return
         for i in range(0, self.n):
