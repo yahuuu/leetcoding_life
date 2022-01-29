@@ -84,7 +84,7 @@ class Solution3:
 """
 
 
-class Solution:
+class Solution1:
     def __init__(self):
         self.deq = list()
 
@@ -100,3 +100,107 @@ class Solution:
             tmp = sorted(tmp, reverse=False)
             self.deq = tmp[:k]
         return self.deq[k - 1]
+
+
+"""
+最小堆大概思路， 第k个最小就是堆中第k次出堆的元素，
+入堆的元素是：(和， points)
+每次循环中，先弹出最小元素，
+从最小元素的下标分别向右 移动一次，
+大概现象是每次弹出的元素向右扩展，
+
+"""
+
+import heapq as hq
+
+
+class Solution:
+    def __init__(self):
+        self.ls = list()
+        self.mat = None
+        self.used = set()
+
+    def return_va_point(self, points):
+        val = sum([self.mat[i][points[i]] for i in range(self.row)])
+        return val
+
+    def kthSmallest(self, mat: List[List[int]], k: int) -> int:
+        self.mat = mat
+        self.row = row = len(mat)
+        col = len(mat[0])
+        points = [0] * row
+        val = 0
+        for i in range(self.row):
+            val += self.mat[i][0]
+        # val = sum([self.mat[i][points[i]] for i in range(self.row)])
+
+        hq.heappush(self.ls, (val, points))
+        self.used.add(tuple(points))
+        for _ in range(k - 1):
+            val, points = hq.heappop(self.ls)
+            # 每行当前point列往前走一步
+            for j in range(row):
+                new_points = points.copy()
+                new_points[j] += 1
+                if new_points[j] > col - 1:  # 超过col
+                    continue
+                if tuple(new_points) in self.used:
+                    continue
+                self.used.add(tuple(new_points))
+                # val = sum([self.mat[n][new_points[n]] for n in range(self.row)])  #  事实证明这行特别费时间
+                # val = sum(list(self.mat[i][new_points[i]] for i in range(self.row))) # 生成器也不快
+                new_val = val - mat[j][points[j]] + mat[j][new_points[j]]
+
+                hq.heappush(self.ls, (new_val, new_points))
+        return hq.heappop(self.ls)[0]
+
+
+import heapq
+
+
+class Solutionk:
+    def kthSmallest(self, mat, k: int) -> int:
+        m, n = len(mat), len(mat[0])
+        # 初始化指针
+        pointers = [0] * m
+        # 初始化heap
+        heap = []
+        curr_sum = 0
+        for i in range(m):
+            curr_sum += mat[i][0]
+        heapq.heappush(heap, [curr_sum, tuple(pointers)])
+        # 初始化seen
+        seen = set()
+        seen.add(tuple(pointers))
+        # 执行k次
+        for _ in range(k):
+            # 从堆中pop出curr_sum(最小数组和)和pointers(指针数组)
+            curr_sum, pointers = heapq.heappop(heap)
+            # 每个指针轮流后移一位，将new_sum(新的数组和)和new_pointers(新的指针数组)push入堆
+            for i, j in enumerate(pointers):
+                if j < n - 1:
+                    new_pointers = list(pointers)
+                    new_pointers[i] = j + 1
+                    new_pointers = tuple(new_pointers)
+                    if new_pointers not in seen:
+                        new_sum = curr_sum + mat[i][j + 1] - mat[i][j]
+                        heapq.heappush(heap, [new_sum, new_pointers])
+                        seen.add(new_pointers)
+        return curr_sum
+
+
+if __name__ == '__main__':
+    mat = [[1, 1, 10], [2, 2, 9]]
+    k = 7
+    solu = Solution()
+    res = solu.kthSmallest(mat, k)
+    print(res)
+    strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
+
+    # ♠2
+    # from line_profiler import LineProfiler
+    # lp = LineProfiler()
+    # lp.add_function(Solution.kthSmallest)  # 被引用函数需要声明才显示细节
+    # lp_wrapper = lp(Solution().kthSmallest)  # 被显示的函数
+    # lp_wrapper(mat, k)  # 参数传入
+    # lp.print_stats()  # 打印喽
