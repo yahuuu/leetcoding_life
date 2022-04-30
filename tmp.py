@@ -4,31 +4,34 @@
 # @FileName: tmp.py
 # @Software: PyCharm
 
+from typing import List
 
-
-ls1 = ["a", "b", "c", "d"]
-class Solution():
+class Solution:
     def __init__(self):
-        self.ls = []
+        self.res = list()
+        self.records = None
+        self.n = 0
 
-    def helper(self, ls, idls, id, limit):
-        if len(ls) == limit:
-            self.ls.append((ls[:], idls[:]))
-            return
-        for i in range(id, self.n):
-            ls.append(ls1[i])
-            idls.append(i)
-            self.helper(ls, idls, i+1, limit)
-            ls.pop(-1)
-            idls.pop(-1)
+    def helper(self, nums, ls: List):
+        if len(ls) == self.n:
+            self.res.append(ls.copy())
+        for i in range(self.n):
+            if self.records[i] == 0:
+                # ls.append(nums[i])
+                self.records[i] = 1
+                self.helper(nums, ls+[nums[i]])
+                # ls.pop(-1)
+                self.records[i] = 0
 
-    def backtracking(self):
-        self.n = len(ls1)
-        self.limit = 2
-        for limit in range(1, len(ls1)):
-            self.helper([], [], 0, limit)
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        self.n = len(nums)
+        self.records = [0 for i in nums]
+        self.helper(nums, [])
+        return self.res
 
-solu = Solution()
-solu.backtracking()
-print(solu.ls)
-
+if __name__ == '__main__':
+    # nums = [ 1]
+    nums = [ 1, 2, 3]
+    solu = Solution()
+    res = solu.permute(nums)
+    print(res)
